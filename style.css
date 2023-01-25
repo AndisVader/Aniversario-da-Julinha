@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background:linear-gradient(to right,rgb(241, 148, 241), rgb(231, 102, 231));
+    background:linear-gradient(to right,rgb(207, 164, 207), rgb(231, 102, 231));
     background-size: auto;
     height: 450px;
 }
@@ -127,8 +127,8 @@ body {
         width: 250px;
     }
     .imgfullsize img{
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
     .cards  {
         width: 300px;
@@ -137,6 +137,9 @@ body {
      background-size:200px;
      height: 2000px;
     }
+    .textcont2{
+        width: 70%;
+    }
  }
 .iconY{
     display: flex;
@@ -144,13 +147,16 @@ body {
     margin-top: 25px;
     font-size: 75px;
     color: red;
+    text-decoration: none;
 }
-.homenagem i{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
+
 .homenagem{
     background:linear-gradient(to right,rgb(122, 0, 122), rgb(252, 110, 216));
     color: white;
+}
+.cards:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.5s;
+    box-shadow: 6px 6px 10px rgb(165, 60, 226);
+    
 }
