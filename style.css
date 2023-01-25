@@ -9,13 +9,16 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    overflow-x: none;
+    font-family: 'Kanit', sans-serif;
+
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: brown;
+    background:linear-gradient(to right,rgb(241, 148, 241), rgb(231, 102, 231));
     background-size: auto;
     height: 450px;
 }
@@ -44,12 +47,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 40%;
     height: auto;
+    width: 40%;
     background-color: whitesmoke;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 95px;
+}
+.textcont2 h2{
+    color: blue; 
+    font-size: 13PX;
 }
 
 .container2 {
@@ -104,3 +111,46 @@ body {
     margin-top: 100px;
 }
 
+
+ @media screen and (max-width: 400px) {
+    .cabecalho{
+        display: flex;        
+        flex-direction: column;
+        padding-top: 20%;
+        align-items: center;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .imgHead img {
+        height: 250px;
+        width: 250px;
+    }
+    .imgfullsize img{
+        height: 250px;
+        width: 250px;
+    }
+    .cards  {
+        width: 300px;
+    }
+    .container2{
+     background-size:200px;
+     height: 2000px;
+    }
+ }
+.iconY{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 75px;
+    color: red;
+}
+.homenagem i{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.homenagem{
+    background:linear-gradient(to right,rgb(122, 0, 122), rgb(252, 110, 216));
+    color: white;
+}
