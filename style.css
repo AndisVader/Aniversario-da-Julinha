@@ -127,8 +127,8 @@ body {
         width: 250px;
     }
     .imgfullsize img{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
     .cards  {
         width: 300px;
@@ -139,6 +139,9 @@ body {
     }
     .textcont2{
         width: 70%;
+    }
+    .homenagem H2{
+        padding: 10px;
     }
  }
 .iconY{
