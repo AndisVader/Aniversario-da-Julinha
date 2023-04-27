@@ -63,7 +63,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(background2.jpg);
+    background-image: url(./assets/imgs/background2.jpg);
     height: 750px;
     padding: 100px;
 
